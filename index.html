@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cut The Fluff News</title>
+    <style>
+
+   @media screen and (min-width: 901px) {
+    .mobiyes{
+    display: none;
+    }
+    }
+
+            @media screen and (max-width: 900px) {
+            .container {
+                max-width: 100%;
+            }
+            img {
+                max-width: 100%;
+            }
+            p {
+                margin-left: 5%;
+                margin-right: 5%;
+            }
+            input[type="email"],
+            input[type="text"] {
+                width: 100%;
+                max-width: 100%;
+            }
+            .mobinot{
+            display:none;
+            }
+            body {
+    -moz-transform: scale(0.7, 0.7); /* Moz-browsers */
+    zoom: 0.7; /* Other non-webkit browsers */
+    zoom: 70%; /* Webkit browsers */
+}
+        }
+        body {
+            font-family: Courier New, Courier, monospace;
+            background-color: #1a1a1a;
+            color: #ffffff;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+
+        .container {
+            max-width: 800px; /* Adjust the max-width as per your preference */
+            padding: 20px;
+            background-color: #333333;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 24px;
+            margin-bottom: 10px;
+            font-family: Courier New, Courier, monospace;
+        }
+
+        p {
+            font-size: 16px;
+            margin-bottom: 20px;
+            font-family: Courier New, Courier, monospace;
+        }
+
+        .listmonk-form {
+            /* Remove text-align: left; */
+        }
+
+        .form-container {
+            padding: 10px;
+            border: 1px solid #555555;
+            border-radius: 5px;
+        }
+
+        input[type="email"],
+        input[type="text"] {
+            width: 100%;
+            max-width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #555555;
+            border-radius: 5px;
+            background-color: #333333;
+            color: #ffffff;
+            font-family: Courier New, Courier, monospace;
+        }
+
+        input[type="checkbox"] {
+            margin-right: 5px;
+        }
+
+        .subscribe-button {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-family: Courier New, Courier, monospace;
+        }
+
+        .subscribe-button:hover {
+            background-color: #0056b3;
+        }
+
+        .noneme {
+            display: none;
+        }
+        .mobi{
+        align-items: top;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="Untitled(9).png" style="max-width:45%;">
+        <p style="margin-left:10%;margin-right:10%;" class="mobinot">Start making informed business decisions by joining our free weekly newsletter. Stay updated on consumer behaviour and market trends in Canada. We are comitted to saving you time, so we keep our news short without compromising value. All you need is 5 minutes a week.</p>
+        <p class="mobiyes">The 5 minute weekly newsletter for Canadian entrepreneurs.<p>
+        <form method="post" action="http://104.156.226.89:9000/subscription/form" class="listmonk-form">
+            <div class="form-container">
+                <input type="hidden" name="nonce" />
+                <p><input type="email" name="email" required placeholder="E-mail" style="width: 100%; box-sizing: border-box;" /></p>
+                <p><input type="text" name="name" placeholder="Name (optional)" style="width: 100%; box-sizing: border-box;" /></p>
+
+                <p>
+                    <input id="243b4" type="checkbox" name="l" checked value="243b4c88-42a4-4ab0-b907-218929932a45" class="noneme" />
+                    <label for="243b4" class="noneme">Free Weekly Newsletter</label>
+                </p>
+
+                <p><input type="submit" value="Subscribe For Free" class="subscribe-button" /></p>
+                <h2>OR</h2>
+                <p style="margin-left:10%;margin-right:10%;">Subscribe to our paid newsletter for $2.99 and get updates three times weekly + access to exclusive opinion pieces.</p>
+                <br>
+                    <input type="submit" value="Click To Pay" class="subscribe-button" id="redirectButton" />
+
+    <script>
+        // Get a reference to the button element
+        var button = document.getElementById("redirectButton");
+
+        // Add a click event listener to the button
+        button.addEventListener("click", function() {
+            // Redirect the user to example.com
+            window.location.href = "https://next.waveapps.com/checkouts/2119679077f34ff3b8a30e78223aa349";
+        });
+    </script>
+    </form>
+                <br>
+                <br>
+                <p>Sourcing From:</p>
+                <img src="sources.png" style="max-width:35%;"/>
+            </div>
+
+</body>
+</html>
